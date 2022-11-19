@@ -30,10 +30,11 @@ public :
     void print() const override {
         cout<< "The cube is "<<endl<<endl;
         for(int k=0 ; k<3 ; k++){
-            for(int i=0 ; i<=8 ; i++) cout<< " ";
+            for(int i=0 ; i<7 ; i++) cout<< " ";
             for(int j=0 ; j<3 ; j++){
                 cout << cube[0][k][j]<<" ";
             }
+            cout<<endl;
         }
         cout<<endl;
         for(int i=0 ; i<3 ; i++){
@@ -43,13 +44,15 @@ public :
                 }
                 cout<<" ";
             }
+            cout<<endl;
         }
         cout<<endl;
         for(int i=0 ; i<3 ; i++){
-            for(int z=0 ; z<8 ; z++) cout<< " ";
+            for(int z=0 ; z<7 ; z++) cout<< " ";
             for(int j=0 ; j<3 ; j++){
                 cout<< cube[5][i][j]<< " ";
             }
+            cout<<endl;
         }
         cout<<endl;
 
