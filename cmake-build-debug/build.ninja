@@ -67,6 +67,18 @@ build CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCube3DArray.cpp.obj: CXX_COM
   OBJECT_DIR = CMakeFiles\Rubiks_Cube_Solver.dir
   OBJECT_FILE_DIR = CMakeFiles\Rubiks_Cube_Solver.dir\Model
 
+build CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCube1DArray.cpp.obj: CXX_COMPILER__Rubiks_Cube_Solver_Debug C$:/Users/Sahil$ Khairnar/OneDrive/Desktop/Rubiks_Cube_Solver/Model/RubiksCube1DArray.cpp || cmake_object_order_depends_target_Rubiks_Cube_Solver
+  DEP_FILE = CMakeFiles\Rubiks_Cube_Solver.dir\Model\RubiksCube1DArray.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Rubiks_Cube_Solver.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubiks_Cube_Solver.dir\Model
+
+build CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCubeBitboard.cpp.obj: CXX_COMPILER__Rubiks_Cube_Solver_Debug C$:/Users/Sahil$ Khairnar/OneDrive/Desktop/Rubiks_Cube_Solver/Model/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_Rubiks_Cube_Solver
+  DEP_FILE = CMakeFiles\Rubiks_Cube_Solver.dir\Model\RubiksCubeBitboard.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Rubiks_Cube_Solver.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubiks_Cube_Solver.dir\Model
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Rubiks_Cube_Solver
@@ -75,7 +87,7 @@ build CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCube3DArray.cpp.obj: CXX_COM
 #############################################
 # Link the executable Rubiks_Cube_Solver.exe
 
-build Rubiks_Cube_Solver.exe: CXX_EXECUTABLE_LINKER__Rubiks_Cube_Solver_Debug CMakeFiles/Rubiks_Cube_Solver.dir/main.cpp.obj CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCube.cpp.obj CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCube3DArray.cpp.obj
+build Rubiks_Cube_Solver.exe: CXX_EXECUTABLE_LINKER__Rubiks_Cube_Solver_Debug CMakeFiles/Rubiks_Cube_Solver.dir/main.cpp.obj CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCube.cpp.obj CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCube3DArray.cpp.obj CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCube1DArray.cpp.obj CMakeFiles/Rubiks_Cube_Solver.dir/Model/RubiksCubeBitboard.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Rubiks_Cube_Solver.dir
